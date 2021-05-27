@@ -26,6 +26,7 @@ defmodule Tagtime.MixProject do
 
   defp deps do
     [
+      {:ex_doc, "~> 0.24", only: :dev, runtime: false},
       {:stream_data, "~> 0.5", only: [:dev, :test]},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
